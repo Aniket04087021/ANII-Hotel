@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "anii-hotel.vercel.app/reservation/send",
+        "https://anii-hotel.vercel.app/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
