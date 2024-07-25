@@ -18,7 +18,7 @@ const Home = () => {
       <WhoAreWe/>
       <Team/>
       <Reservation/>
-      <Footer/>
+      
       
     </>
   )
